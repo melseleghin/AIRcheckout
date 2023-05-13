@@ -1,0 +1,127 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration:none;
+} 
+
+body {
+    font-size: 100%;
+    background: linear-gradient(-45deg, #005954, #338b85, #33a684, #cf23d5);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+img {
+    height:90px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap:32px;
+   
+}
+nav{
+    display: flex;
+    gap:32px;
+    color: black;
+}
+a {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+a:visited
+{
+    color:black
+}
+a:hover, .active {
+    background-color:#1D80DB!important;
+    border-radius: 15px;
+}
+
+main {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 100px;
+    padding: 80px
+}
+
+.termo {
+    display: flex;
+    font-family: 'Source Code Pro', monospace;
+    font-weight:500;
+    font-size: 20px;
+
+    
+}
+
+
+.texto1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+button {
+    background-color: 
+    opacit, 1;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10000000000543543543545px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    
+}
+
+button:active{
+    background-color: opacity, 1;
+    transform: scale(0.98);
+            box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+                   
+} 
+
+button:hover{
+    background-color: rgba(236, 214,196,0.53);
+}
+
+.botao {
+    background-color: opacity, 1;
+    font-size:100px;
+}
+
+footer {
+    font-size: 30px;
+    width: 180px;
+    height: 60px;
+}
+
+a #titulo {
+    font-size: 80px;
+}
+
+section .btn {
+    align-items: center;
+}
