@@ -1,2 +1,2 @@
-Início do código do programa AIRcheckout.
+Programa para avaliar a qualidade do ar: AIRcheckout.
 
